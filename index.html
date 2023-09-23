@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>sign in with</h1>
+      <div class="social-platform">
+        <button class="facebook">
+          <img
+            src="http://1000logos.net/wp-content/uploads/2016/11/facebook-emblem.jpg"
+            alt=""
+          />
+          facebook
+        </button>
+        <button class="google">
+          <img
+            src="http://pluspng.com/img-png/google-logo-png-open-2000.png"
+            alt=""
+          />
+          google
+        </button>
+      </div>
+
+      <div class="form">
+        <label for="username">Username</label>
+        <input type="text" id="username" />
+        <p class="usererror"></p>
+        <label for="password">password</label>
+        <input type="text" id="password" />
+        <p class="passerror"></p>
+        <button class="submit">Submit</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
